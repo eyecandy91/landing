@@ -21,7 +21,7 @@ html,body {
   margin-bottom: 0;
 }
 .hero .subtitle + .subtitle {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   /* padding-top: 0; */
   line-height: 1.5;
 }
@@ -32,7 +32,7 @@ html,body {
 
 .navbar img {
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   position: relative;
   top: 30px;
 }
