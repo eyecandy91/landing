@@ -1,0 +1,43 @@
+html,body {
+  font-family: 'Open Sans', serif;
+}
+.hero.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0 1rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.hero .subtitle + .subtitle {
+  padding-bottom: 3rem;
+  /* padding-top: 0; */
+  line-height: 1.5;
+}
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar img {
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+  top: 30px;
+}
+
+.button {
+  letter-spacing: 2px;
+  font-weight: 700
+}
