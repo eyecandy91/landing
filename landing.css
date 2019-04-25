@@ -41,3 +41,9 @@ html,body {
   letter-spacing: 2px;
   font-weight: 700
 }
+
+h2,
+.button {
+  max-width: 450px;
+  margin: auto
+}
